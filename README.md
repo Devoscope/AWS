@@ -1,8 +1,5 @@
 # AWS Introduction
 
-
-# Advantages of Using AWS
-
 # **Introduction to AWS**
 
 Amazon Web Services (AWS) is a comprehensive, evolving cloud computing platform provided by Amazon. It offers a variety of services such as computing power, storage, and databases, which help organizations scale and grow with ease.
