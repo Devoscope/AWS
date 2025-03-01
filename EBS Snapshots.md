@@ -46,7 +46,11 @@ An **EBS Snapshot** is a **point-in-time backup** of an Amazon EBS volume. Snaps
    ```bash
    aws ec2 delete-snapshot --snapshot-id snap-12345678
 
-
 6.  ** Restore a Volume from Snapshot**
    ```bash
    aws ec2 create-volume --snapshot-id snap-12345678 --availability-zone us-east-1a
+
+
+
+
+
