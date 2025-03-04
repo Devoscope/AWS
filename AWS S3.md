@@ -155,3 +155,9 @@ Ensure data consistency and durability by understanding S3's data replication an
 Recovering deleted objects
 
 If an object is accidentally deleted, you can often recover it using versioning or S3 event notifications. Additionally, consider enabling Cross-Region Replication (CRR) for disaster recovery scenarios.
+
+
+
+
+Link to AWS bucket policies: [https://docs.aws.amazon.com/AmazonS3/latest/userguide/example-bucket-policies.html](url)
+
