@@ -159,5 +159,5 @@ If an object is accidentally deleted, you can often recover it using versioning 
 
 
 
-Link to AWS bucket policies: [https://docs.aws.amazon.com/AmazonS3/latest/userguide/example-bucket-policies.html](url)
+Link to AWS bucket policies: [https://docs.aws.amazon.com/AmazonS3/latest/userguide/example-bucket-policies.html]([url](https://docs.aws.amazon.com/AmazonS3/latest/userguide/example-bucket-policies.html))
 
