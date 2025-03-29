@@ -38,4 +38,34 @@ AWS CloudFront is a content delivery network (CDN) service that securely deliver
 ## Setting Up CloudFront
 1. **Create a CloudFront Distribution**
 2. **Specify Origin (S3, EC2, etc.)**
-3. **Configur
+3. **Configure Cache Behaviors**
+4. **Enable SSL/HTTPS**
+5. **Deploy and Test**
+
+## CloudFront with AWS S3
+- Enable **static website hosting** on S3.
+- Configure the bucket policy to allow public access or use OAI (Origin Access Identity) for secure access.
+- Use CloudFront to serve S3 content with enhanced performance.
+
+## Monitoring & Logging
+- AWS CloudWatch for metrics.
+- AWS CloudTrail for request logging.
+- Access logs stored in S3.
+
+## Invalidating Cache
+Use `Invalidations` to remove outdated content:
+```sh
+aws cloudfront create-invalidation --distribution-id <DISTRIBUTION_ID> --paths "/*"
+```
+
+## Security Best Practices
+- Use **Origin Access Control (OAC)** for private S3 access.
+- Enable **HTTPS** and restrict HTTP.
+- Use **AWS WAF** for additional protection.
+
+## Alternatives to AWS CloudFront
+- Akamai CDN
+- Fastly
+- Cloudflare CDN
+- Google Cloud CDN
+- Azure Front Door
